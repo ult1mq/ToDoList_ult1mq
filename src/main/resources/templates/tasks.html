@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список задач</title>
+</head>
+<body>
+<h1>Список задач</h1>
+<ul>
+    <!-- Перебор задач -->
+    <li th:each="task : ${tasks}">
+        <strong th:text="${task.title}"></strong> -
+        <span th:text="${task.description}"></span>
+        (<em th:text="${task.completed ? 'Завершено' : 'В процессе'}"></em>)
+    </li>
+</ul>
+</body>
