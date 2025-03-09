@@ -2,15 +2,16 @@ package org.ult1mq.todolist.service;
 
 import org.springframework.stereotype.Service;
 import org.ult1mq.todolist.entity.Task;
+import org.ult1mq.todolist.repository.TaskRepository;
 
 import java.util.List;
 
 @Service
 public class TaskService {
-    private final TaksRepository taskRepository;
+    private final TaskRepository taskRepository;
 
-    public TaskService(TaksRepository taksRepository) {
-        this.taskRepository = taksRepository;
+    public TaskService(TaskRepository taskRepository) {
+        this.taskRepository = taskRepository;
 
     }
 
