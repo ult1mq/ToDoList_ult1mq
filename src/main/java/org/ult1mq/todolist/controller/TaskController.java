@@ -1,8 +1,10 @@
-package org.ult1mq.todolist;
+package org.ult1mq.todolist.controller;
 
 import org.springframework.http.ResponseEntity;
 
 import org.springframework.web.bind.annotation.*;
+import org.ult1mq.todolist.entity.Task;
+import org.ult1mq.todolist.service.TaskService;
 
 import java.util.List;
 

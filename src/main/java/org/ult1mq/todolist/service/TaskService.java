@@ -1,6 +1,7 @@
-package org.ult1mq.todolist;
+package org.ult1mq.todolist.service;
 
 import org.springframework.stereotype.Service;
+import org.ult1mq.todolist.entity.Task;
 
 import java.util.List;
 
