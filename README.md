@@ -51,7 +51,7 @@ src
 ### 🔹 Клонирование проекта
 
 ```bash
-git clone https://github.com/ваш-username/todolist.git
+git clone https://github.com/ult1mq/ToDoList_ult1mq.git
 cd todolist
 ```
 
