@@ -52,7 +52,7 @@ src
 
 ```bash
 git clone https://github.com/ult1mq/ToDoList_ult1mq.git
-cd todolist
+cd ToDoList_ult1mq
 ```
 
 ### 🔹 Запуск проекта
